@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-breath-phase>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tim 工作台</title>
+  <link rel="stylesheet" href="/apps/demo/basic-host.css">
+</head>
+<body>
+  <div class="container container--standalone">
+    <tim-workbench
+      endpoint="/api/ai/run"
+      asset-base="/packages/web-component/assets/tim-six-state"
+      effects-base="/assets/effects/generated-v2"
+    ></tim-workbench>
+  </div>
+  <script type="module">
+    import '/dist/packages/tim-workbench/src/index.js';
+    import { mountAiSettingsDrawer } from '/apps/demo/settings-drawer.js';
+
+    const container = document.querySelector('.container');
+    const workbench = container.querySelector('tim-workbench');
+    mountAiSettingsDrawer({ container, workbench, includeEffectSpread: true });
+  </script>
+</body>
+</html>

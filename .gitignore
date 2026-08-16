@@ -1,0 +1,21 @@
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+claudian/
+bun.lock
+
+# Local/private material
+assets/production/*
+!assets/production/README.md
+assets/development/*
+!assets/development/README.md
+!assets/development/six-state-manifest.json
+!assets/development/tim-shared-candidates/
+!assets/development/tim-shared-candidates/**
