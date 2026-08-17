@@ -1,0 +1,138 @@
+{
+  "id": "tim-effects-generated-v2",
+  "status": "development_candidate",
+  "source": "assets/reference/tim-effects-strip-generated-v2.png",
+  "count": 14,
+  "backgroundRemoved": true,
+  "format": "PNG/RGBA",
+  "style": "muted glassmorphism UI, reduced saturation, restrained highlights, no neon halo",
+  "items": [
+    {
+      "assetId": "sleep",
+      "path": "assets/effects/generated-v2/sleep.png",
+      "size": {
+        "width": 122,
+        "height": 149
+      },
+      "sha256": "38d2be2103ebc039c5898cb3c12254de7b640706835d73c81a60416a50cfda7d"
+    },
+    {
+      "assetId": "question",
+      "path": "assets/effects/generated-v2/question.png",
+      "size": {
+        "width": 115,
+        "height": 151
+      },
+      "sha256": "95d7c63751c230e0e8fed8b3e6cac5922d4cd8481d0d43dbab2bccd2d974ae46"
+    },
+    {
+      "assetId": "exclamation",
+      "path": "assets/effects/generated-v2/exclamation.png",
+      "size": {
+        "width": 70,
+        "height": 152
+      },
+      "sha256": "e6edc87751ef55f572221302349eddab490070e711c09cc2619ef23301c1d907"
+    },
+    {
+      "assetId": "star",
+      "path": "assets/effects/generated-v2/star.png",
+      "size": {
+        "width": 105,
+        "height": 131
+      },
+      "sha256": "92131da3b31085099fb795d336a0525b2b023403dab79f1d580b9e9ca8bed595"
+    },
+    {
+      "assetId": "heart",
+      "path": "assets/effects/generated-v2/heart.png",
+      "size": {
+        "width": 120,
+        "height": 118
+      },
+      "sha256": "95a1848d7efb890a8ba580fd00de5fb7c01bde4e42ab4133aae8939c1923788c"
+    },
+    {
+      "assetId": "confetti",
+      "path": "assets/effects/generated-v2/confetti.png",
+      "size": {
+        "width": 122,
+        "height": 166
+      },
+      "sha256": "eff68cf6ebc4de6573c7a0fb1c597e9638c442ed221b63d98c0df480c7a7fbee"
+    },
+    {
+      "assetId": "sparkle",
+      "path": "assets/effects/generated-v2/sparkle.png",
+      "size": {
+        "width": 110,
+        "height": 147
+      },
+      "sha256": "ad32e290e11d3adde667af77e8b87736334261c4cc76b9d85c7c8e0ee32b8895"
+    },
+    {
+      "assetId": "idea",
+      "path": "assets/effects/generated-v2/idea.png",
+      "size": {
+        "width": 90,
+        "height": 152
+      },
+      "sha256": "1ba727b0c25a5a82ae671f1c365834f28ae7de7b75565733ae830c134135cc74"
+    },
+    {
+      "assetId": "music",
+      "path": "assets/effects/generated-v2/music.png",
+      "size": {
+        "width": 120,
+        "height": 138
+      },
+      "sha256": "bea19d8249757cce77dd5bf92ac181d8b58c5ce9991bc3314ef73177a7a1a4a2"
+    },
+    {
+      "assetId": "confusion",
+      "path": "assets/effects/generated-v2/confusion.png",
+      "size": {
+        "width": 100,
+        "height": 150
+      },
+      "sha256": "f271f32475350c7248a3ef3c8ee5e869c839323a63517e1b399945060c09d10f"
+    },
+    {
+      "assetId": "anger",
+      "path": "assets/effects/generated-v2/anger.png",
+      "size": {
+        "width": 110,
+        "height": 141
+      },
+      "sha256": "ddcd1e0bd56a8eee0b00158a283cea6ee97f20b337205c6b17d1a195f6e1aeee"
+    },
+    {
+      "assetId": "tear",
+      "path": "assets/effects/generated-v2/tear.png",
+      "size": {
+        "width": 88,
+        "height": 135
+      },
+      "sha256": "43d3b1dbc870291ef804069957fd625f32e793c6bfc76be78d39c56fc4e36531"
+    },
+    {
+      "assetId": "alert",
+      "path": "assets/effects/generated-v2/alert.png",
+      "size": {
+        "width": 130,
+        "height": 133
+      },
+      "sha256": "16bf2254f1d6dffc93ef214783c96d7145429ac296a75a2b7e0b52c2de470e60"
+    },
+    {
+      "assetId": "siren",
+      "path": "assets/effects/generated-v2/siren.png",
+      "size": {
+        "width": 102,
+        "height": 127
+      },
+      "sha256": "b820866558ad0866460fe69e43f57e0c4b836a877f222c5b7601ad0b7a859ec5"
+    }
+  ],
+  "policy": "DOM effects only; never bake into Tim frame"
+}

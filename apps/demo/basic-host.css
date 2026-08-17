@@ -1,0 +1,45 @@
+@import url('./settings-drawer.css');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  --theme-panel-rgb: 16, 23, 19;
+  --theme-panel2-rgb: 8, 13, 11;
+  --theme-highlight-rgb: 255, 255, 255;
+  --theme-shadow-rgb: 0, 0, 0;
+  --theme-accent-rgb: 0, 230, 118;
+  --theme-highlight: #edfff5;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d8e0ea;
+  background: #0a0f14;
+  font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgba(255, 255, 255, .08);
+  border-left: 1px solid rgba(255, 255, 255, .08);
+}
+
+.container--standalone {
+  width: 420px;
+  max-width: 100vw;
+}
+
+tim-workbench {
+  display: block;
+  min-height: 0;
+  flex: 1 1 auto;
+}

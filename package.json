@@ -1,0 +1,19 @@
+{
+  "name": "agent-companion-tim-standalone",
+  "version": "0.1.0",
+  "private": true,
+  "description": "可独立运行的 Agent Companion TIM 工作台",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test tests/standalone-server.test.mjs",
+    "demo": "node scripts/serve-demo.mjs",
+    "start": "npm run demo"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
