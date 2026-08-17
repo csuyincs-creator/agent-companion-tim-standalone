@@ -2,6 +2,10 @@
 
 一个可独立运行的 TIM（AI 陪伴角色）工作台：桌面上养一只会陪你跑任务的 AI 助手。它是 Agent Companion TIM 的独立版本，只保留可运行的 Standalone 页面及其必要依赖。
 
+<p align="center">
+  <img src="assets/tim-idle.gif" alt="TIM 呼吸动画" width="192" />
+</p>
+
 ## 它能做什么
 
 - **TIM 六态角色**：idle / running / needs_input / ready / blocked / extras 六种状态各带动画剪辑，闭眼静态休眠，Hover 唤醒；
